@@ -93,12 +93,75 @@ const Home: React.FC = () => {
         </section>
 
       {/* 4. BOG'LANISH BO'LIMI (id="contact") */}
-      <section id="contact" className="min-h-screen bg-white p-6 md:p-12 flex flex-col justify-start items-start container mx-auto">
-        <h2 className="text-4xl font-bold text-blue-900 mb-6">Bog'lanish</h2>
-        <p className="text-lg text-gray-700 max-w-2xl text-center mb-4">
-          Men bilan bog'lanish uchun quyidagi tarmoqlardan foydalanishingiz mumkin.
-        </p>
-      </section>
+                                <section id="contact" className="min-h-screen bg-purple-950 p-6 md:p-12 flex flex-col justify-center items-center container mx-auto text-white">
+                <div className="max-w-3xl w-full flex flex-col items-center text-center">
+                    
+                    {/* Sarlavha va matn */}
+                    <h2 className="text-4xl font-bold text-purple-300 mb-4">
+                    📞 Bog'lanish
+                    </h2>
+                    <p className="text-lg text-purple-200 max-w-2xl mb-10">
+                    Men bilan bog'lanish uchun quyidagi tarmoqlardan foydalanishingiz mumkin.
+                    </p>
+
+                    {/* Ma'lumotlar kartochkalari tarmog'i */}
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full">
+                    
+                    {/* Telefon raqam */}
+                    <a 
+                        href="tel:+99850072270" 
+                        className="flex items-center gap-4 p-5 bg-purple-900/60 border border-purple-800 rounded-2xl hover:border-purple-400 hover:scale-105 transition-all duration-200 shadow-lg shadow-purple-950/50"
+                    >
+                        <span className="text-3xl">📱</span>
+                        <div className="text-left">
+                        <p className="text-xs text-purple-300 font-medium">Telefon Raqam</p>
+                        <p className="text-lg font-bold text-purple-200">+998 50 072 22 70</p>
+                        </div>
+                    </a>
+
+                    {/* E-mail */}
+                    <a 
+                        href="mailto:Sbunyod15@gmail.com" 
+                        className="flex items-center gap-4 p-5 bg-purple-900/60 border border-purple-800 rounded-2xl hover:border-purple-400 hover:scale-105 transition-all duration-200 shadow-lg shadow-purple-950/50"
+                    >
+                        <span className="text-3xl">✉️</span>
+                        <div className="text-left">
+                        <p className="text-xs text-purple-300 font-medium">E-mail</p>
+                        <p className="text-lg font-bold text-purple-200">Sbunyod15@gmail.com</p>
+                        </div>
+                    </a>
+
+                    {/* Telegram */}
+                    <a 
+                        href="https://t.me/the_bude" 
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        className="flex items-center gap-4 p-5 bg-purple-900/60 border border-purple-800 rounded-2xl hover:border-purple-400 hover:scale-105 transition-all duration-200 shadow-lg shadow-purple-950/50"
+                    >
+                        <span className="text-3xl">✈️</span>
+                        <div className="text-left">
+                        <p className="text-xs text-purple-300 font-medium">Telegram</p>
+                        <p className="text-lg font-bold text-purple-200">@the_bude</p>
+                        </div>
+                    </a>
+
+                    {/* GitHub */}
+                    <a 
+                        href="https://github.com/TheBude" 
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        className="flex items-center gap-4 p-5 bg-purple-900/60 border border-purple-800 rounded-2xl hover:border-purple-400 hover:scale-105 transition-all duration-200 shadow-lg shadow-purple-950/50"
+                    >
+                        <span className="text-3xl">💻</span>
+                        <div className="text-left">
+                        <p className="text-xs text-purple-300 font-medium">GitHub</p>
+                        <p className="text-lg font-bold text-purple-200">github.com/TheBude</p>
+                        </div>
+                    </a>
+
+                    </div>
+                </div>
+                </section>
 
     </div>
   );
