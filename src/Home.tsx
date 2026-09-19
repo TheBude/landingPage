@@ -57,10 +57,10 @@ const Home: React.FC = () => {
               <div className="browser-bar"><span className="window-dot red" /><span className="window-dot yellow" /><span className="window-dot green" /><span className="browser-url">thebude.dev / playground</span></div>
               <div className="browser-screen">
                 <img src="/web_d_gif.gif" alt="Web development jarayoni animatsiyasi" />
-                <div className="screen-caption"><span>Crafting better interfaces</span><strong>2026</strong></div>
+                <div className="screen-caption"><span>TheBude</span><strong>2026</strong></div>
               </div>
             </div>
-            <div className="floating-note"><span className="note-icon">✦</span><span><strong>Detail first.</strong><br />Impact always.</span></div>
+            <div className="floating-note"><span className="note-icon">✦</span><span><strong>O'qi va O'rgan</strong><br />Maqsadga Yet!</span></div>
             <div className="visual-label label-bottom">TASHKENT / UZ</div>
           </div>
         </section>
@@ -82,7 +82,7 @@ const Home: React.FC = () => {
         </section>
       </main>
 
-      <footer className="site-footer content-width"><span>© 2026 TheBude Dev</span><span>Made with intention <i>✦</i></span><span>Toshkent, O'zbekiston</span></footer>
+      <footer className="site-footer content-width"><span>© 2026 TheBude Dev</span><span>Made with TheBude <i>✦</i></span><span>Samarqand, O'zbekiston</span></footer>
     </div>
   );
 };
