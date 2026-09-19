@@ -42,8 +42,8 @@ const Home: React.FC = () => {
         <section id="home" className="hero-section content-width">
           <div className="hero-copy reveal reveal-one">
             <div className="eyebrow"><span className="status-dot" /> Ochiqman — yangi imkoniyatlar uchun</div>
-            <h1>Raqamli mahsulotlar<br /><em>yarataman.</em></h1>
-            <p className="hero-intro">Men Bunyod — g'oyalarni tez, aniq va odamlarga yoqimli ishlaydigan web tajribalariga aylantiradigan full-stack dasturchiman.</p>
+            <h1>Bunyodning Sahifasiga<br /><em>Xo'sh Kelibsiz!</em></h1>
+            <p className="hero-intro">Men Bunyodman. Web dasturlash bilan shug'ullanaman va o'ylagan g'oyalarni oddiy, qulay va chiroyli ishlaydigan saytlarga aylantirishni yoqtiraman. Frontenddan backendgacha loyihaning barcha qismlari bilan ishlay olaman.</p>
             <div className="hero-actions">
               <Link className="button button-primary" to="/projects">Ishlarimni ko'rish <span>↗</span></Link>
               <a className="button button-quiet" href="#contact">Bog'lanamiz <span>↓</span></a>
